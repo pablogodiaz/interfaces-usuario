@@ -7,20 +7,39 @@
         <h2>Formulario de registro:</h2><br/>
         <form action="" >
             <p>
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre" id="nombre" title='Introduce tu nombre' autocomplete="nombre"/>
+                <label for="firstname">Nombre:</label>
+                <input type="text" name="firstname" id="firstname" title='Introduce tu nombre' autocomplete="nombre" required/>
             </p>
 
             <p>
-                <label for="apellido">Primer Apellido:</label>
-                <input type="text" name="apellido" id="apellido" title='Introduce tu primer apellido' autocomplete="apellido"/>
+                <label for="lastname">Primer Apellido:</label>
+                <input type="text" name="lastname" id="lastname" title='Introduce tu primer apellido' autocomplete="apellido" required/>
             </p>
 
             <p>
-                <label for="fecha">Fecha de Nacimiento:</label>
-                <input type="date" name="fecha" id="fecha" title='Introduce tu fecha de nacimiento' autocomplete="fecha"/>
+                <label for="birthdate">Fecha de Nacimiento:</label>
+                <input type="date" name="birthdate" id="birthdate" title='Introduce tu fecha de nacimiento' autocomplete="fecha"/>
             </p>
 
+            <p>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" title='Introduce tu correo electr&oacute;nico' autocomplete="email" required/>
+            </p>
+
+            <p>
+                <label for="phonenumber">Tel&eacute;fono:</label>
+                <input type="tel" name="phonenumber" id="phonenumber" title='Introduce tu tel&eacute;fono' autocomplete="tel&eacute;fono"/>
+            </p>
+
+            <p>
+                <label for="pass">Contrase&ntilde;a:</label>
+                <input type="password" name="pass" id="pass" title='Introduce tu contrase&ntilde;a' autocomplete="tel&eacute;fono" required/>
+            </p>
+
+            <p>
+                <label for="color">Color Favorito:</label>
+                <input type="color" name="color" id="color" title='Introduce tu color favorito' autocomplete="color"/>
+            </p>
             <input type="submit" value="Submit" />
         </form>
     </body>
